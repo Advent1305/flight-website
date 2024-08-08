@@ -1,0 +1,47 @@
+form{
+    background-color:lightblue;
+    width:40%;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+label{
+    margin-left:20px;
+    margin-top: 20px;
+}
+input{
+    background-color: whitesmoke;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding:7px 40px;
+}
+hr{
+    margin-top: 20px;
+}
+select{
+    margin-top: 20px;
+    border-radius: 5px;
+    width:50%;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+input[type=radio],[type=gender]{
+    background-color: aliceblue;
+    margin-right: 10px;
+}
+.frm{
+    margin-right: 20px;
+}
+button{
+    background-color: blue;
+    padding: 10px 20px;
+    margin-left: 3.5%;
+    margin-top: 20px;
+    border: none;
+    border-radius:10px;
+    transition: all ease 0.4s;
+}
+button:hover{
+    background-color: grey;
+    transform: translateX(1.2rem);
+}

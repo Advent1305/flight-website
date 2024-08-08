@@ -1,0 +1,89 @@
+*{
+    margin-top: 0;
+    padding-top: 0;
+}
+.container{
+    margin-right:350px;
+    margin-left:450px;
+    margin-top:130px;
+    background-color: #d0ebff;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 13px;
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+.logo{
+    width:70px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.navbar{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color:#d0ebff;
+    width:100%;
+    margin-left: -1%;
+    position: fixed;
+    margin-top: -130px;
+    box-shadow: 0px 8px 16px 0px rgb(95, 95, 95)
+}
+.navbar li{
+    list-style: none;
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-top:8px;
+    transition: all ease 0.4s;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-family: poppins;
+}
+.navbar li:hover{
+    text-decoration: overline;
+    border-radius: 10px;
+    transform: translateY(10px);
+}
+input[type=text], input[type=password]{
+    padding: 15px;
+    padding-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    border: none;
+    background-color: whitesmoke;
+    font-family: poppins;
+}
+.register-btn{
+    color: black;
+    background-color:#4dabf7;
+    width:100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: poppins;
+    margin-left: -8px;
+}
+.register-btn:hover{
+    background-color: burlywood;
+}
+p{
+    color: black;
+    font-family: poppins;
+}
+h2{
+    color: black;
+    font-family: poppins;
+}
+label{
+    color: black;
+    font-family: poppins;
+}
+a:hover{
+    color:chocolate;
+    text-decoration: none;
+}
